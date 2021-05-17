@@ -14,20 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HeaderBackground: {fileID: 2800000, guid: 1c7aa536c503744ffafe54d893a5816b, type: 3}
   Title:
-    m_Untranslated: Your First 6 Steps to Creating a Game
+    m_Untranslated: TUTORIALS
   ProjectName:
     m_Untranslated: Karting
   Description:
-    m_Untranslated: Start building your first game now. Have fun clicking through
-      these 6 helpful steps and you will have the foundation to modifying your first
-      game in less than 30 minutes.
+    m_Untranslated: 
   ProjectLayout: {fileID: 102900000, guid: 7a55d28f119eb4bb2a019158b480027a, type: 3}
   Sections:
   - OrderInView: 0
     Heading:
-      m_Untranslated: Playtest
+      m_Untranslated: Get started
     Text:
-      m_Untranslated: Make a simple change and playtest your game.
+      m_Untranslated: Playtest the game and increase the speed of your kart
     LinkText: 
     Url: 
     AuthorizedUrl: 0
@@ -35,9 +33,9 @@ MonoBehaviour:
     Tutorial: {fileID: 11400000, guid: 92d21b44a68004daebe1f6c4e03b487a, type: 2}
   - OrderInView: 2
     Heading:
-      m_Untranslated: Editor UI
+      m_Untranslated: Editor basics
     Text:
-      m_Untranslated: Master navigating around the Editor.
+      m_Untranslated: Learn the basic views, windows, and tools of the Unity Editor
     LinkText: 
     Url: 
     AuthorizedUrl: 0
@@ -45,9 +43,9 @@ MonoBehaviour:
     Tutorial: {fileID: 11400000, guid: ef019b20e49b14cfca4e98ecf5fd345d, type: 2}
   - OrderInView: 4
     Heading:
-      m_Untranslated: Edit Colors
+      m_Untranslated: Change colors
     Text:
-      m_Untranslated: Learn how to change the color of a kart.
+      m_Untranslated: Change the color of a GameObject
     LinkText: 
     Url: 
     AuthorizedUrl: 0
@@ -55,9 +53,9 @@ MonoBehaviour:
     Tutorial: {fileID: 11400000, guid: 83255933b1f9a13428ca582620d979c8, type: 2}
   - OrderInView: 6
     Heading:
-      m_Untranslated: Add a Jump
+      m_Untranslated: Add a jump
     Text:
-      m_Untranslated: Learn how to add Prefab objects to your game.
+      m_Untranslated: Add a jump to increase the challenge
     LinkText: 
     Url: 
     AuthorizedUrl: 0
@@ -65,32 +63,22 @@ MonoBehaviour:
     Tutorial: {fileID: 11400000, guid: 351b553575cb34b12945f5996095329d, type: 2}
   - OrderInView: 8
     Heading:
-      m_Untranslated: Build and Publish
-    Text:
-      m_Untranslated: Build, publish, and share your game for other people to play!
-    LinkText: 
-    Url: 
-    AuthorizedUrl: 0
-    Image: {fileID: 2800000, guid: 5ab95756baccd446898f557557202c2b, type: 3}
-    Tutorial: {fileID: 11400000, guid: c122a1a2efeb58349b8154e42481067b, type: 2}
-  - OrderInView: 10
-    Heading:
-      m_Untranslated: Modding Tutorials
+      m_Untranslated: Microgame Mods
     Text:
       m_Untranslated: Add self-driving karts, design your own levels, change the
-        game mode, and more.
+        game mode, and more
     LinkText: asd
     Url: https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d
     AuthorizedUrl: 0
     Image: {fileID: 2800000, guid: caa22bb026fa84979ba1be2779739367, type: 3}
     Tutorial: {fileID: 0}
-  - OrderInView: 12
+  - OrderInView: 10
     Heading:
-      m_Untranslated: Karting User Group
+      m_Untranslated: Build and publish
     Text:
-      m_Untranslated: Join other Karting Creators in this online community group.
-    LinkText: asd
-    Url: https://connect.unity.com/g/karting-creators
+      m_Untranslated: Build and publish your project as a shareable web game
+    LinkText: 
+    Url: 
     AuthorizedUrl: 0
-    Image: {fileID: 2800000, guid: caa22bb026fa84979ba1be2779739367, type: 3}
-    Tutorial: {fileID: 0}
+    Image: {fileID: 2800000, guid: 5ab95756baccd446898f557557202c2b, type: 3}
+    Tutorial: {fileID: 11400000, guid: c122a1a2efeb58349b8154e42481067b, type: 2}

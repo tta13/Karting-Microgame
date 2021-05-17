@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3428233201271213168}
   - component: {fileID: 3428233201270247088}
   - component: {fileID: 8577849258008703004}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,6 +55,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -89,9 +90,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f5a44503c018d324580820af937c9987, type: 3}
 --- !u!1 &3428233201268248690
 GameObject:
@@ -105,7 +106,7 @@ GameObject:
   - component: {fileID: 3428233201271213170}
   - component: {fileID: 3428233201270247090}
   - component: {fileID: 5967161288331140915}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Track
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,6 +149,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -182,9 +184,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 74fd08689db02b94a8cac89c8bb7f35c, type: 3}
 --- !u!1 &3428233201268248692
 GameObject:
@@ -195,7 +197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3428233201268345940}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TrackCamber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
